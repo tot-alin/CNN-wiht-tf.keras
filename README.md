@@ -2,6 +2,10 @@
 
   The project aims to achieve a classification model using TensorFlow Keras. The model has been trained with the database containing 15 classes ['Bean', 'Bitter_Gourd', 'Bottle_Gourd', 'Brinjal', 'Broccoli', 'Cabbage', 'Capsicum', 'Carrot', 'Cauliflower', 'Cucumber', 'Papaya', 'Potato', 'Pumpkin', 'Radish', 'Tomato'], 1500 training dataset, 3000 validatin dataset and 3000 test dataset, taken from: 'https://www.kaggle.com/api/v1/datasets/download/misrakahmed/vegetable-image-dataset'
 
+<p align="center">
+<img width="1028" height="601" alt="Screenshot from 2025-10-22 20-25-17" src="https://github.com/user-attachments/assets/6ff5883c-9a6b-445e-a131-735da5c9f59f" />
+</p>
+
 The project contains:
 * [CNN.pdf](https://github.com/user-attachments/files/21350468/CNN.pdf)
 * Describes the methods and functions used
@@ -9,7 +13,7 @@ The project contains:
 * Diagrams of results obtained
 * Project code
 
-Bibliography:
+## Bibliography:
 
 https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
 
