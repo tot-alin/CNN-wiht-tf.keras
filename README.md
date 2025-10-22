@@ -12,6 +12,41 @@ The project contains:
 * Functionality diagrams
 * Diagrams of results obtained
 * Project code
+<br />
+<br />
+
+## Data collection method
+A straightforward way to create the dataset is to use the image_dataset_from_directory method, which is found in the Keras TensorFlow library tf.keras.preprocessing.image_dataset_from_directory. This method creates a tensor of the form [ [ [ [image][label] ] ]  [ [image][label] ] [ [ [image][label] ] ]  .....], and the required structure has the form.
+<p align="center">
+<img width="507" height="252" alt="Screenshot from 2025-10-22 20-50-38" src="https://github.com/user-attachments/assets/f100eb2a-a53b-43b6-b4ae-e97d6d0c487c" />
+</p>
+<br />
+<br />
+
+## Data Normalization
+An important step in data pre-processing is feature normalization, which is a method of scaling the features before entering them into a model. Properly, normalization means scaling the data to be analyzed into a specific range [0,0 ... 1]. The purpose of this method is to facilitate the model operation and to find a common denominator in terms of the amplitude of the different datasets that are composited. The normalization equation is:
+
+<img width="115" height="44" alt="image" src="https://github.com/user-attachments/assets/8060b909-6a1a-41dd-a24b-166164f52d69" />
+<br />
+<br />
+
+## Separating data into features and labels
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Bibliography:
 
