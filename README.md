@@ -64,14 +64,39 @@ The activation functions in a neural network have the role of changing the linea
 
 SoftMax is the activation function that converts a raw feature vector from the neural network into a vector expressing the probability corresponding to the input. The computational relation <img width="224" height="67" alt="image" src="https://github.com/user-attachments/assets/050ec122-a469-4113-aa81-e2ee4ddb9358" /> , <img width="12" height="21" alt="image" src="https://github.com/user-attachments/assets/3feae99d-b8a8-41a0-97ce-ef2e2de94480" /> - the output of the previous layer in the network, <img width="10" height="19" alt="image" src="https://github.com/user-attachments/assets/aa0dfb2c-0fa6-4768-a6d0-c1c12e76010f" /> - number of classes,<img width="16" height="21" alt="image" src="https://github.com/user-attachments/assets/e828161e-6132-491a-aa32-aaf0df25510e" /> - represents the exponential of the Zi, <img width="53" height="44" alt="image" src="https://github.com/user-attachments/assets/e324ef93-be58-4a63-9844-6f360a00a0f4" /> - the sum of exponentials across all classes.
 
+The function ReLU (rectified linear unit) is a linear function on the range of positive values and on the range of negative values or 0; this function outputs the value 0. Function expression 
+ <img width="138" height="21" alt="image" src="https://github.com/user-attachments/assets/05443e82-e136-4d6e-ab58-a31524c8f4bb" /> where z is the input.
+<br />
+<br />
 
+## Dropout()
+Dropout() is a technique for decreasing the overfitting of neural networks by randomly removing a random amount of information from the matrix that passes through this method. This functionality is present during the training period; in the case of evaluation or prediction, it stops automatically. Setting tf.keras.layers.Dropout(elimination coefficient between 0 and 1) 
+<br />
+<br />
 
+## Loss()
+The loss function, also called the error function, quantifies the difference between the predicted outcome of a machine learning model and the actual target values. This function underlies the machine learning process.
 
+The error function used in this project is categorical cross-entropy, used in multi-class classification problems, i.e., more than two. It measures the difference between the probability distribution vector (SoftMax) predicted by the model and the true label with values of 0 and 1. Function equation <img width="207" height="44" alt="image" src="https://github.com/user-attachments/assets/c771c78b-c0d3-4115-ab11-0ad94acf7192" /> where <img width="92" height="25" alt="image" src="https://github.com/user-attachments/assets/3d92261f-929b-4864-b895-4e183ef36d6b" /> - is the categorical cross-entropy loss, <img width="14" height="21" alt="image" src="https://github.com/user-attachments/assets/42d40447-63ed-436c-85c4-4dd1136d3fb0" /> s the true label (0 or 1 for each class) from the one-hot encoded target vector, <img width="14" height="23" alt="image" src="https://github.com/user-attachments/assets/baa2fe66-b43e-4eec-8a85-ae1b2686f10b" /> – is the predicted probability for classi.
+<br />
+<br />
 
+## Metric()
+This is a method for evaluating machine learning models that indicates a quantitative value of the efficiency of the models. Regardless of the type of problem, classification, continuous value prediction, or clustering, the correct selection of the evaluation method tells us how well the model accomplishes its goals.
 
+Accuracy is a fundamental method used to evaluate the performance of a classification model and expresses the proportion of correct items to the total number of items. The equation can be expressed as <img width="305" height="39" alt="image" src="https://github.com/user-attachments/assets/594581a1-3b0c-4bca-b633-7aaa115908c2" /> where <img width="76" height="23" alt="image" src="https://github.com/user-attachments/assets/f1b5c3c1-f520-4e5e-a251-32f236c34e35" /> - indicates the maximum position in the target result vector and <img width="81" height="23" alt="image" src="https://github.com/user-attachments/assets/ad642edd-66e3-477f-9827-47797799d426" /> - indicates the maximum position in the outcome vector predicted by the model.
+<br />
+<br />
 
+## Optimizer()
+Optimizers are algorithms used to minimize the loss function or to streamline the process. These mathematical functions relate to model learning parameters, i.e., weights, gradients, and errors. Specifically, these optimizers help to modify the weights and learning rate.
+<br />
+<br />
 
-
+## Compiling a Model
+The compile() function creates and configures the model for the training and evaluation process. By calling this function, the model encapsulates the optimizer, loss, and metrics. If we omit the compile() function and call one of the fit() or evaluate() functions, an error will occur.
+<br />
+<br />
 
 
 
