@@ -121,26 +121,29 @@ To optimize computational resources, the project processing was performed in two
 <p align="center">
 <img width="451" height="696" alt="Screenshot from 2025-10-22 21-44-46" src="https://github.com/user-attachments/assets/bc8e55a6-6a36-49f2-a4bb-ab6d29d8f7a0" />
 </p>
+<br />
+
 <p align="center">
 <br />Loss diagram for training and validation datasets
 <br /><img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/e463bfa8-25ce-4c1a-873e-2a293934c1a2" />
 </p>
+<br />
 
 <p align="center">
 <br />Accuracy diagram for training and validation datasets
 <br /><img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/b5d1ecbc-2076-4edb-ad76-5ed62bb80401" />
 </p>
+<br />
 
 <p align="center">
 <br />Confusion Matrix for Multi-class Classification diagram
 <br /><img width="2000" height="1500" alt="image" src="https://github.com/user-attachments/assets/a9a68714-fcb8-45d5-b449-3569c4210442" />
 </p>
+<br />
 
 <p align="center">
 <br /><img width="574" height="195" alt="Screenshot from 2025-10-22 21-51-38" src="https://github.com/user-attachments/assets/3d71d51b-63ab-4ffb-b533-a87cac79efd0" />
-
 </p>
-
 <br />
 <br />
 
