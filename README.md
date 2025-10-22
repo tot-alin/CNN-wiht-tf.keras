@@ -5,13 +5,6 @@
 <p align="center">
 <img width="500" height="300" alt="Screenshot from 2025-10-22 20-25-17" src="https://github.com/user-attachments/assets/6ff5883c-9a6b-445e-a131-735da5c9f59f" />
 </p>
-
-The project contains:
-* [CNN.pdf](https://github.com/user-attachments/files/21350468/CNN.pdf)
-* Describes the methods and functions used
-* Functionality diagrams
-* Diagrams of results obtained
-* Project code
 <br />
 <br />
 
@@ -110,7 +103,7 @@ The evaluate() function is used to evaluate a trained model. It returns the loss
 <br />
 <br />
 
-## onfusion Matrix For Multi-class Classification
+## Confusion Matrix For Multi-class Classification
 The confusion matrix is a table used to express how good a classification model is. It compares the predictions made with the actual results and shows where it was right or wrong. This helps you understand where the model is wrong so you can improve it.
 
 The multi-class confusion matrix concept is similar to the binary class matrix. The columns represent the original or expected class distribution, and the rows represent the classifier's predicted or output distribution.
