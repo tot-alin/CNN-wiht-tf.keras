@@ -98,10 +98,58 @@ The compile() function creates and configures the model for the training and eva
 <br />
 <br />
 
+## Model fit()
+The fit() function is used for training a machine learning model using a fixed number of epochs. During training, the function adjusts trainable model parameters in order to minimize the loss function.
 
+The objects returned by this class are the loss and metric values recorded during the training. model.fit(x_train, y_train, batch_size, epochs, validation_data=(x_val, y_val))
+<br />
+<br />
 
+## Model evaluate()
+The evaluate() function is used to evaluate a trained model. It returns the loss and metric value. Generally used with dataset_test. evaluate(test_x, test_y)
+<br />
+<br />
 
+## onfusion Matrix For Multi-class Classification
+The confusion matrix is a table used to express how good a classification model is. It compares the predictions made with the actual results and shows where it was right or wrong. This helps you understand where the model is wrong so you can improve it.
 
+The multi-class confusion matrix concept is similar to the binary class matrix. The columns represent the original or expected class distribution, and the rows represent the classifier's predicted or output distribution.
+<br />
+<br />
+
+## Model description
+This model is a model that realizes the classification of objects and is composed of CNN layers and a fully connected layer. The dataset is taken from https://www.kaggle.com/api/v1/datasets/download/misrakahmed/vegetable-image-dataset and contains the train dataset - 15000 files belonging to 15 classes, the validation dataset - 3000 files belonging to 15 classes, and the test dataset 3000 files belonging to 15 classes.
+
+To optimize computational resources, the project processing was performed in two compute units as follows. The pre-processing of the datasets was realized on the CPU unit, and the dataset remained stored in RAM (approx.     25 Gbi), and the model was trained on the GPU unit.
+<p align="center">
+<img width="575" height="677" alt="Screenshot from 2025-10-22 21-40-40" src="https://github.com/user-attachments/assets/63c4df73-826a-4e83-9104-b945eee7f9a7" />
+</p>
+<br />.
+<p align="center">
+<img width="451" height="696" alt="Screenshot from 2025-10-22 21-44-46" src="https://github.com/user-attachments/assets/bc8e55a6-6a36-49f2-a4bb-ab6d29d8f7a0" />
+</p>
+<p align="center">
+<br />Loss diagram for training and validation datasets
+<br /><img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/e463bfa8-25ce-4c1a-873e-2a293934c1a2" />
+</p>
+
+<p align="center">
+<br />Accuracy diagram for training and validation datasets
+<br /><img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/b5d1ecbc-2076-4edb-ad76-5ed62bb80401" />
+</p>
+
+<p align="center">
+<br />Confusion Matrix for Multi-class Classification diagram
+<br /><img width="2000" height="1500" alt="image" src="https://github.com/user-attachments/assets/a9a68714-fcb8-45d5-b449-3569c4210442" />
+</p>
+
+<p align="center">
+<br /><img width="574" height="195" alt="Screenshot from 2025-10-22 21-51-38" src="https://github.com/user-attachments/assets/3d71d51b-63ab-4ffb-b533-a87cac79efd0" />
+
+</p>
+
+<br />
+<br />
 
 ## Bibliography:
 
