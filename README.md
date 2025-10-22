@@ -30,9 +30,39 @@ An important step in data pre-processing is feature normalization, which is a me
 <br />
 <br />
 
-## Separating data into features and labels
+## Sequential()
+The Sequential class in Keras allows rapid prototyping of machine learning models by sequentially superimposing layers. Sequential models work by layer stacking, i.e., each layer takes the output of the previous layer as input. To create a sequential model in Keras, you can create a list of constructor statements or add layers incrementally using the add() method.
+<br />
+<br />
 
+## Conv2D()
+tf.keras.layers.Conv2D from the TensorFlow Keras libraries is a convolutional element with which conventional neural networks are built. The explanation of these network models is explained in a previous project https://github.com/tot-alin/CNN-with-tf.nn
 
+Conv2D requires some minimal settings Conv2D(filters=nr.maps out, kernel_size=(height,width), strides=moving on (height,width), padding= same or valid, activation=chosen activation function )
+<br />
+<br />
+
+## Pool()
+Pooling is a method of extracting important features from a feature matrix (feature map) by reducing its size. The description of the functionality can be found at https://github.com/tot-alin/CNN-with-tf.nn/blob/main/README.md
+
+The settings for MaxPooling2D(pool_size=(height, width), strides=moving on (height, width), padding=same or valid), used in this project, extract the maximum values from the moving window.
+<br />
+<br />
+
+## Flatten()
+This class transforms an m×n-dimensional matrix or an i×j×k×⋯ tensor into a vector (one-dimensional matrix) 1×(m*n) or 1×(i*j*k*⋯). The role of this transform in this project is to bridge the CNN layer and the Dense layer.
+<br />
+<br />
+
+## Dense()
+tf.keras.layers.layers.Dense() is a fully connected layer where each neuron in the layer is connected to the next layer, more fully described in https://github.com/tot-alin/Multi-Layer-Perceptron-with-NumPy. Setarea clasei dense (unități = numărul de neuroni din strat, activare = funcția de activare aleasă).
+<br />
+<br />
+
+## Activation function
+The activation functions in a neural network have the role of changing the linear character of the output produced by layers of perceptrons, CNN, etc. In this project, there are two types of networks: ReLU and SoftMax
+
+SoftMax is the activation function that converts a raw feature vector from the neural network into a vector expressing the probability corresponding to the input. The computational relation <img width="224" height="67" alt="image" src="https://github.com/user-attachments/assets/050ec122-a469-4113-aa81-e2ee4ddb9358" /> , <img width="12" height="21" alt="image" src="https://github.com/user-attachments/assets/3feae99d-b8a8-41a0-97ce-ef2e2de94480" /> - the output of the previous layer in the network, <img width="10" height="19" alt="image" src="https://github.com/user-attachments/assets/aa0dfb2c-0fa6-4768-a6d0-c1c12e76010f" /> - number of classes,<img width="16" height="21" alt="image" src="https://github.com/user-attachments/assets/e828161e-6132-491a-aa32-aaf0df25510e" /> - represents the exponential of the Zi, <img width="53" height="44" alt="image" src="https://github.com/user-attachments/assets/e324ef93-be58-4a63-9844-6f360a00a0f4" /> - the sum of exponentials across all classes.
 
 
 
