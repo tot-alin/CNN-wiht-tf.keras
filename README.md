@@ -10,21 +10,38 @@ The project contains:
 * Project code
 
 Bibliography:
-* https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
-* https://keras.io/api/data_loading/image/
-* https://machinelearningmastery.com/how-to-load-large-datasets-from-directories-for-deep-learning-with-keras/
-* https://www.tensorflow.org/guide/data
-* https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPool2D 
-* https://www.tensorflow.org/api_docs/python/tf/keras/layers/Flatten
-* https://en.wikipedia.org/wiki/Activation_function
-* https://victorzhou.com/blog/softmax/
-* https://www.datacamp.com/tutorial/loss-function-in-machine-learning
-* https://www.geeksforgeeks.org/deep-learning/categorical-cross-entropy-in-multi-class-classification/
-* https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/
-* https://www.geeksforgeeks.org/javascript/tensorflow-js-tf-layersmodel-class-compile-method/
-* https://kambale.dev/build-compile-and-fit-models-with-tensorflow
-* https://www.geeksforgeeks.org/deep-learning/model-fit-in-tensorflow/
-* https://www.geeksforgeeks.org/deep-learning/model-evaluate-in-tensorflow/
-* https://www.v7labs.com/blog/confusion-matrix-guide
-* https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/
+
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image_dataset_from_directory
+
+https://keras.io/api/data_loading/image/
+
+https://machinelearningmastery.com/how-to-load-large-datasets-from-directories-for-deep-learning-with-keras/
+
+https://www.tensorflow.org/guide/data
+
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPool2D 
+
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Flatten
+
+https://en.wikipedia.org/wiki/Activation_function
+
+https://victorzhou.com/blog/softmax/
+
+https://www.datacamp.com/tutorial/loss-function-in-machine-learning
+
+https://www.geeksforgeeks.org/deep-learning/categorical-cross-entropy-in-multi-class-classification/
+
+https://www.geeksforgeeks.org/machine-learning/metrics-for-machine-learning-model/
+
+https://www.geeksforgeeks.org/javascript/tensorflow-js-tf-layersmodel-class-compile-method/
+
+https://kambale.dev/build-compile-and-fit-models-with-tensorflow
+
+https://www.geeksforgeeks.org/deep-learning/model-fit-in-tensorflow/
+
+https://www.geeksforgeeks.org/deep-learning/model-evaluate-in-tensorflow/
+
+https://www.v7labs.com/blog/confusion-matrix-guide
+
+https://www.geeksforgeeks.org/machine-learning/confusion-matrix-machine-learning/
 
